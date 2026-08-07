@@ -52,12 +52,12 @@
         // layer 0 (U_BASE)
         QWERTY {
             bindings = <
-&kp CAPS         &kp N1       &kp N2      &kp N3        &kp N4            &kp N5            &kp N6           &kp N7          &kp N8       &kp N9      &kp N0           &ht_tog U_MOUSE DEL
-&kp TAB          &kp Q        &kp W       &kp E         &kp R             &kp T             &kp Y            &kp U           &kp I        &kp O       &kp P            &kp BSLH
-&kp ESC          &hm LGUI A   &hm LALT S  &hm LCTRL D   &hm LSHFT F       &kp G             &kp H            &hm RSHFT J     &hm RCTRL K  &hm RALT L  &hm RGUI SEMI    &kp SQT
-&lt U_BUT LSHFT  &kp Z        &kp X       &kp C         &kp V             &kp B             &kp N            &kp M           &kp COMMA    &kp DOT     &lt U_BUT FSLH   &kp RSHFT
-                                          &mt LCTRL ESC &lt U_MOUSE SPACE &lt U_NAV TAB     &lt U_SYM BSPC   &lt U_NUM ENTER
-                                                        &mo U_RNUM        &mo U_RSYM        &lt U_FUN DELETE
+&kp CAPS   &kp N1       &kp N2      &kp N3        &kp N4            &kp N5            &kp N6           &kp N7          &kp N8       &kp N9      &kp N0           &ht_tog U_MOUSE DEL
+&kp TAB    &kp Q        &kp W       &kp E         &kp R             &kp T             &kp Y            &kp U           &kp I        &kp O       &kp P            &kp BSLH
+&kp ESC    &hm LGUI A   &hm LALT S  &hm LCTRL D   &hm LSHFT F       &kp G             &kp H            &hm RSHFT J     &hm RCTRL K  &hm RALT L  &hm RGUI SEMI    &kp SQT
+&kp LSHFT  &lt U_BUT Z  &kp X       &kp C         &kp V             &kp B             &kp N            &kp M           &kp COMMA    &kp DOT     &lt U_BUT FSLH   &kp RSHFT
+                                    &mt LCTRL ESC &lt U_MOUSE SPACE &lt U_NAV TAB     &lt U_SYM BSPC   &lt U_NUM ENTER
+                                                  &mo U_RNUM        &mo U_RSYM        &lt U_FUN DELETE
             >;
         };
 
