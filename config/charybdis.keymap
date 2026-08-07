@@ -76,11 +76,11 @@
         // layer 2 (U_MOUSE)
         mouse-layer {
             bindings = <
-&none     &none      &none     &none      &none       &none        &none        &none       &none       &none        &none       &to U_BASE
-&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &kp K_REDO   &kp K_PASTE &kp K_COPY  &kp K_CUT    &kp K_UNDO  &none
-&none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &mkp LCLK    &mkp MCLK    &mkp LCLK   &mkp RCLK   &mo U_SCROLL &mo U_SNIPE &none
-&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &none        &none       &none       &none        &none       &none
-                               &mkp MCLK  &mkp LCLK   &mkp RCLK    &mkp RCLK    &mkp LCLK
+&none     &none      &none     &none      &none       &none        &none         &none       &none       &none        &none       &to U_BASE
+&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &kp LS(LC(Z)) &kp LC(V)   &kp LC(C)   &kp LC(X)    &kp LC(Z)   &none
+&none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &mkp LCLK    &mkp MCLK     &mkp LCLK   &mkp RCLK   &mo U_SCROLL &mo U_SNIPE &none
+&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &none         &none       &none       &none        &none       &none
+                               &mkp MCLK  &mkp LCLK   &mkp RCLK    &mkp RCLK     &mkp LCLK
                                           &none       &none        &mkp MCLK
             >;
         };
@@ -88,22 +88,22 @@
         // layer 3 (U_SCROLL)
         scroll-layer {
             bindings = <
-&none     &none      &none     &none      &none       &none        &none        &none       &none       &none     &none       &to U_BASE
-&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &kp K_REDO   &kp K_PASTE &kp K_COPY  &kp K_CUT &kp K_UNDO  &none
-&none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &mkp LCLK    &mkp MCLK    &mkp LCLK   &mkp RCLK   &none     &none       &none
-&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &none        &none       &none       &none     &none       &none
-                               &mkp MCLK  &mkp LCLK   &mkp RCLK    &mkp RCLK    &mkp LCLK
+&none     &none      &none     &none      &none       &none        &none         &none       &none       &none     &none       &to U_BASE
+&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &kp LS(LC(Z)) &kp LC(V)   &kp LC(C)   &kp LC(X) &kp LC(Z)   &none
+&none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &mkp LCLK    &mkp MCLK     &mkp LCLK   &mkp RCLK   &none     &none       &none
+&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &none         &none       &none       &none     &none       &none
+                               &mkp MCLK  &mkp LCLK   &mkp RCLK    &mkp RCLK     &mkp LCLK
                                           &none       &none        &mkp MCLK
             >;
         };
         // layer 4 (U_SNIPE)
         snipe-layer {
             bindings = <
-&none     &none      &none     &none      &none       &none        &none        &none       &none       &none     &none       &to U_BASE
-&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &kp K_REDO   &kp K_PASTE &kp K_COPY  &kp K_CUT &kp K_UNDO  &none
-&none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &mkp LCLK    &mkp MCLK    &mkp LCLK   &mkp RCLK   &none     &none       &none
-&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &none        &none       &none       &none     &none       &none
-                               &mkp MCLK  &mkp LCLK   &mkp RCLK    &mkp RCLK    &mkp LCLK
+&none     &none      &none     &none      &none       &none        &none         &none       &none       &none     &none       &to U_BASE
+&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &kp LS(LC(Z)) &kp LC(V)   &kp LC(C)   &kp LC(X) &kp LC(Z)   &none
+&none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &mkp LCLK    &mkp MCLK     &mkp LCLK   &mkp RCLK   &none     &none       &none
+&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &none         &none       &none       &none     &none       &none
+                               &mkp MCLK  &mkp LCLK   &mkp RCLK    &mkp RCLK     &mkp LCLK
                                           &none       &none        &mkp MCLK
             >;
         };
@@ -123,11 +123,11 @@
         // layer 6 (U_NAV)
         navigation-layer {
             bindings = <
-&none  &none      &none     &none      &none      &none          &none        &none       &none      &none      &none      &none
-&none  &none      &none     &none      &none      &none          &kp K_REDO   &kp K_PASTE &kp K_COPY &kp K_CUT  &kp K_UNDO &none
-&none  &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT  &none          &kp LEFT     &kp DOWN    &kp UP     &kp RIGHT  &kp CAPS   &none
-&none  &none      &none     &none      &none      &none          &kp HOME     &kp PG_DN   &kp PG_UP  &kp END    &kp INS    &none
-                            &none      &none      &none          &kp BSPC     &kp ENTER   
+&none  &none      &none     &none      &none      &none          &none         &none       &none      &none      &none      &none
+&none  &none      &none     &none      &none      &none          &kp LS(LC(Z)) &kp LC(V)   &kp LC(C)  &kp LC(X)  &kp LC(Z)  &none
+&none  &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT  &none          &kp LEFT      &kp DOWN    &kp UP     &kp RIGHT  &kp CAPS   &none
+&none  &none      &none     &none      &none      &none          &kp HOME      &kp PG_DN   &kp PG_UP  &kp END    &kp INS    &none
+                            &none      &none      &none          &kp BSPC      &kp ENTER   
                                        &none      &none          &kp DELETE
             >;
         };
@@ -157,9 +157,9 @@
         button-layer {
             bindings = <
 &none  &none         &none         &none          &none          &none            &none          &none          &none          &none         &none            &none
-&none  &kp K_UNDO    &kp K_CUT     &kp K_COPY     &kp K_PASTE    &kp K_REDO       &kp K_REDO     &kp K_PASTE    &kp K_COPY     &kp K_CUT     &kp K_UNDO       &none
+&none  &kp LC(Z)     &kp LC(X)     &kp LC(C)      &kp LC(V)      &kp LS(LC(Z))    &kp LS(LC(Z))  &kp LC(V)      &kp LC(C)      &kp LC(X)     &kp LC(Z)        &none
 &none  &kp LGUI      &kp LALT      &kp LCTRL      &kp LSHFT      &none            &none          &kp RSHFT      &kp RCTRL      &kp RALT      &kp RGUI         &none
-&none  &kp K_UNDO    &kp K_CUT     &kp K_COPY     &kp K_PASTE    &kp K_REDO       &kp K_REDO     &kp K_PASTE    &kp K_COPY     &kp K_CUT     &kp K_UNDO       &none
+&none  &kp LC(Z)     &kp LC(X)     &kp LC(C)      &kp LC(V)      &kp LS(LC(Z))    &kp LS(LC(Z))  &kp LC(V)      &kp LC(C)      &kp LC(X)     &kp LC(Z)        &none
                                    &mkp MCLK      &mkp LCLK      &mkp RCLK        &mkp RCLK      &mkp LCLK
                                                   &none          &none            &mkp MCLK
             >;
