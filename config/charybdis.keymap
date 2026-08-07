@@ -14,6 +14,8 @@
 #define U_NUM    7
 #define U_SYM    8
 #define U_BUT    9
+#define U_RNUM   10
+#define U_RSYM   11
 
 &lt {
     flavor = "balanced";
