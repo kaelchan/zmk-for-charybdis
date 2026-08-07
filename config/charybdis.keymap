@@ -54,19 +54,19 @@
 &kp TAB          &kp Q        &kp W       &kp E         &kp R             &kp T             &kp Y            &kp U           &kp I        &kp O       &kp P            &kp BSLH
 &kp ESC          &hm LGUI A   &hm LALT S  &hm LCTRL D   &hm LSHFT F       &kp G             &kp H            &hm RSHFT J     &hm RCTRL K  &hm RALT L  &hm RGUI SEMI    &kp SQT
 &lt U_BUT LSHFT  &kp Z        &kp X       &kp C         &kp V             &kp B             &kp N            &kp M           &kp COMMA    &kp DOT     &lt U_BUT FSLH   &kp RSHFT
-                                          &hm LCTRL ESC &lt U_MOUSE SPACE &lt U_FUN TAB     &lt U_SYM BSPC   &lt U_NUM ENTER
-                                                        &kp LGUI          &lt U_NAV LALT    &lt U_FUN DELETE
+                                          &hm LCTRL ESC &lt U_MOUSE SPACE &lt U_NAV TAB     &lt U_SYM BSPC   &lt U_NUM ENTER
+                                                        &kp LGUI          &kp LALT          &lt U_FUN DELETE
             >;
         };
 
         // layer 1 (U_FUN)
         function-layer {
             bindings = <
-&kp F1  &kp F2    &kp F3   &kp F4     &kp F5     &kp F6        &kp F7     &kp F8     &kp F9        &kp F10       &kp F11    &kp F12
-&trans  &kp GRAVE &none    &none      &none      &trans        &none      &none      &kp LBKT      &kp RBKT      &kp MINUS  &kp EQUAL
-&trans  &kp LGUI  &kp LALT &kp LCTRL  &kp LSHFT  &trans        &kp LEFT   &kp DOWN   &kp UP_ARROW  &kp RIGHT     &trans     &trans
-&trans  &trans    &trans   &trans     &trans     &mo U_MEDIA   &none      &none      &trans        &trans        &none      &trans
-                           &trans     &trans     &trans        &trans     &none
+&kp F1  &kp F2    &kp F3   &kp F4     &kp F5     &kp F6        &kp F7     &kp F8       &kp F9        &kp F10       &kp F11    &kp F12
+&trans  &kp F12   &kp F7   &kp F8     &kp F9     &kp PSCRN     &none      &none        &kp LBKT      &kp RBKT      &kp MINUS  &kp EQUAL
+&trans  &kp F11   &kp F4   &kp F5     &kp F6     &kp SLCK      &none      &kp RSHFT    &kp RCTRL     &kp RALT      &kp RGUI   &trans
+&trans  &kp F10   &kp F1   &kp F2     &kp F3     &none         &none      &mo U_MEDIA  &trans        &trans        &none      &trans
+                           &kp K_APP  &kp SPACE  &kp TAB       &trans     &none
                                       &trans     &trans        &trans
             >;
         };
