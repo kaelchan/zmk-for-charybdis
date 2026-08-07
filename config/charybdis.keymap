@@ -54,7 +54,7 @@
 &kp TAB          &kp Q        &kp W       &kp E         &kp R             &kp T             &kp Y            &kp U           &kp I        &kp O       &kp P            &kp BSLH
 &kp ESC          &hm LGUI A   &hm LALT S  &hm LCTRL D   &hm LSHFT F       &kp G             &kp H            &hm RSHFT J     &hm RCTRL K  &hm RALT L  &hm RGUI SEMI    &kp SQT
 &lt U_BUT LSHFT  &kp Z        &kp X       &kp C         &kp V             &kp B             &kp N            &kp M           &kp COMMA    &kp DOT     &lt U_BUT FSLH   &kp RSHFT
-                                          &hm LCTRL ESC &lt U_MOUSE SPACE &lt U_NAV TAB     &lt U_SYM BSPC   &lt U_NUM ENTER
+                                          &mt LCTRL ESC &lt U_MOUSE SPACE &lt U_NAV TAB     &lt U_SYM BSPC   &lt U_NUM ENTER
                                                         &kp LGUI          &kp LALT          &lt U_FUN DELETE
             >;
         };
@@ -75,9 +75,9 @@
         mouse-layer {
             bindings = <
 &none     &none      &none     &none      &none       &none        &none        &none       &none       &none        &none       &to U_BASE
-&none     &none      &none     &none      &none       &none        &kp K_REDO   &kp K_PASTE &kp K_COPY  &kp K_CUT    &kp K_UNDO  &none
-&none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &none        &mkp MCLK    &mkp LCLK   &mkp RCLK   &mo U_SCROLL &mo U_SNIPE &none
-&none     &none      &none     &none      &none       &none        &none        &none       &none       &none        &none       &none
+&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &kp K_REDO   &kp K_PASTE &kp K_COPY  &kp K_CUT    &kp K_UNDO  &none
+&none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &mkp LCLK    &mkp MCLK    &mkp LCLK   &mkp RCLK   &mo U_SCROLL &mo U_SNIPE &none
+&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &none        &none       &none       &none        &none       &none
                                &none      &none       &none        &mkp RCLK    &mkp LCLK
                                           &none       &none        &mkp MCLK
             >;
@@ -87,9 +87,9 @@
         scroll-layer {
             bindings = <
 &none     &none      &none     &none      &none       &none        &none        &none       &none       &none     &none       &none
-&none     &none      &none     &none      &none       &none        &kp K_REDO   &kp K_PASTE &kp K_COPY  &kp K_CUT &kp K_UNDO  &none
-&none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &none        &mkp MCLK    &mkp LCLK   &mkp RCLK   &none     &none       &none
-&none     &none      &none     &none      &none       &none        &none        &none       &none       &none     &none       &none
+&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &kp K_REDO   &kp K_PASTE &kp K_COPY  &kp K_CUT &kp K_UNDO  &none
+&none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &mkp LCLK    &mkp MCLK    &mkp LCLK   &mkp RCLK   &none     &none       &none
+&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &none        &none       &none       &none     &none       &none
                                &none      &none       &none        &mkp RCLK    &mkp LCLK
                                           &none       &none        &mkp MCLK
             >;
@@ -99,9 +99,9 @@
         snipe-layer {
             bindings = <
 &none     &none      &none     &none      &none       &none        &none        &none       &none       &none     &none       &none
-&none     &none      &none     &none      &none       &none        &kp K_REDO   &kp K_PASTE &kp K_COPY  &kp K_CUT &kp K_UNDO  &none
-&none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &none        &mkp MCLK    &mkp LCLK   &mkp RCLK   &none     &none       &none
-&none     &none      &none     &none      &none       &none        &none        &none       &none       &none     &none       &none
+&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &kp K_REDO   &kp K_PASTE &kp K_COPY  &kp K_CUT &kp K_UNDO  &none
+&none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &mkp LCLK    &mkp MCLK    &mkp LCLK   &mkp RCLK   &none     &none       &none
+&none     &none      &none     &mkp RCLK  &mkp LCLK   &mkp MCLK    &none        &none       &none       &none     &none       &none
                                &none      &none       &none        &mkp RCLK    &mkp LCLK
                                           &none       &none        &mkp MCLK
             >;
