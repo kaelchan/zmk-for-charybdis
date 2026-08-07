@@ -78,8 +78,8 @@
 &none     &none      &none     &none      &none       &none        &kp K_REDO   &kp K_PASTE &kp K_COPY  &kp K_CUT    &kp K_UNDO  &none
 &none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &none        &mkp MCLK    &mkp LCLK   &mkp RCLK   &mo U_SCROLL &mo U_SNIPE &none
 &none     &none      &none     &none      &none       &none        &none        &none       &none       &none        &none       &none
-                               &none      &none       &none        &mkp LCLK    &mkp RCLK
-                                          &none       &none        &none
+                               &none      &none       &none        &mkp RCLK    &mkp LCLK
+                                          &none       &none        &mkp MCLK
             >;
         };
 
@@ -90,8 +90,8 @@
 &none     &none      &none     &none      &none       &none        &kp K_REDO   &kp K_PASTE &kp K_COPY  &kp K_CUT &kp K_UNDO  &none
 &none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &none        &mkp MCLK    &mkp LCLK   &mkp RCLK   &none     &none       &none
 &none     &none      &none     &none      &none       &none        &none        &none       &none       &none     &none       &none
-                               &none      &none       &none        &mkp LCLK    &mkp RCLK
-                                          &none       &none        &none
+                               &none      &none       &none        &mkp RCLK    &mkp LCLK
+                                          &none       &none        &mkp MCLK
             >;
         };
 
@@ -102,8 +102,8 @@
 &none     &none      &none     &none      &none       &none        &kp K_REDO   &kp K_PASTE &kp K_COPY  &kp K_CUT &kp K_UNDO  &none
 &none     &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &none        &mkp MCLK    &mkp LCLK   &mkp RCLK   &none     &none       &none
 &none     &none      &none     &none      &none       &none        &none        &none       &none       &none     &none       &none
-                               &none      &none       &none        &mkp LCLK    &mkp RCLK
-                                          &none       &none        &none
+                               &none      &none       &none        &mkp RCLK    &mkp LCLK
+                                          &none       &none        &mkp MCLK
             >;
         };
 
